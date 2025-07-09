@@ -3,7 +3,7 @@
 A *polite* webserver for Go.
 
 Manners allows you to shut your Go webserver down gracefully, without dropping any requests. It can act as a drop-in replacement for the standard library's http.ListenAndServe function:
-
+  
 ```go
 func main() {
   handler := MyHTTPHandler()
